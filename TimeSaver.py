@@ -7,7 +7,7 @@ from PIL import Image
 
 img=Image.open('download.png')
 
-st.set_page_config(page_title = 'LavanyaReddy-Solutions',layout="wide",page_icon=img)
+st.set_page_config(page_title = 'LavanyaReddy-Solutions')
 #st.set_page_config(page_title = 'TimeSaver - EDA',layout="wide",page_icon=img)
 
 st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
