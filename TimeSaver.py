@@ -7,7 +7,8 @@ from PIL import Image
 
 img=Image.open('download.png')
 
-st.set_page_config(page_title = 'TimeSaver - EDA',layout="wide",page_icon=img)
+st.set_page_config(page_title = 'LavanyaReddy-Solutions',layout="wide",page_icon=img)
+#st.set_page_config(page_title = 'TimeSaver - EDA',layout="wide",page_icon=img)
 
 st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
 
@@ -21,9 +22,9 @@ upload1,uploadsp,upload2 = st.columns((2,.1,2))
 
 with upload1:
     
-    ttl = f'<p style="font-family:cursive; font-size: 30px;">TimeSaver!</p>'
+    ttl = f'<p style="font-family:cursive; font-size: 30px;">Lavsol!</p>'
     st.markdown(f"**<h1 style='text-align: center; '>{ttl}</h1>**", unsafe_allow_html=True)
-    st.markdown("**TimeSaver is a Semi-Automated Exploratory Data Analysis Web App which can save lot of time and efforts from writting code for basic visualizations and statistical analysis. It helps in finding meaningful insights by doing preliminary analysis.‎ ‎ ‎ ‎ ‎(‎ ‎Made By Lavanya Reddy‎ ‎)‎ ‎ ‎ ‎ ‎[Email](mailto:timesaver.ds@gmail.com)**")
+    st.markdown("**Lavsol is a Semi-Automated Exploratory Data Analysis Web App which can save lot of time and efforts from writting code for basic visualizations and statistical analysis. It helps in finding meaningful insights by doing preliminary analysis.‎ ‎ ‎ ‎ ‎(‎ ‎Made By Lavanya Reddy‎ ‎)‎ ‎ ‎ ‎ ‎[Email](mailto:timesaver.ds@gmail.com)**")
     
 with upload2:
     data = st.file_uploader("Upload Clean Dataset", type=["csv"])
