@@ -62,12 +62,13 @@ hide_streamlit_style = """
             """
 #st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
 
+#content:'Made By Ravinder with Streamlit';
 custom_streamlit_named_footer = """
             <style>
             #MainMenu {visibility: hidden;}
             footer {visibility: hidden;}
             footer:after {
-            content:'Made By Ravinder with Streamlit';
+            content:'Made By Lavanya Reddy';
             visibility: visible;
             display: block;
             position: relative;
